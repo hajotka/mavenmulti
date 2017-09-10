@@ -1,0 +1,6 @@
+
+description = ''
+dependencies {
+  testCompile project(':server')
+  testCompile project(':server')
+}

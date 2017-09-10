@@ -1,0 +1,6 @@
+rootProject.name = 'maven-multi'
+include ':client'
+include ':server'
+
+project(':client').projectDir = "$rootDir/client" as File
+project(':server').projectDir = "$rootDir/server" as File

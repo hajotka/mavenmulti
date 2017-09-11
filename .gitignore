@@ -6,3 +6,5 @@ target/
 # Gradle
 .gradle
 build/
+# Emacs
+*~

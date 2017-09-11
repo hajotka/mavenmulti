@@ -1,6 +1,5 @@
-
 description = ''
 dependencies {
-  testCompile project(':server')
-  testCompile project(':server')
+    testCompile project(':server')
+    testCompile project(path: ':server', configuration: 'testArtifacts')
 }
